@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header, .search, .cards {
+    width: 100%;
+}
+
+.header img, .search img, .cards img {
+    width: 100%;
+}
+
+.setting {
+    width: 60%;
+}
+
+.setting img {
+    width: 100%;
+}
+
+.cards {
+    display: flex;
+    padding: 0 20px;
+    padding-bottom: 40px;
+}
+
+.card {
+    border-radius: 50px;
+    background-color: rgba(238, 238, 238, 0.867);
+    box-shadow: 0px 0px 40px #818181;
+    padding: 40px 20px;
+    margin: 40px;
+}
+
+.setting, .search, .cards {
+    padding-top: 200px;
+}
